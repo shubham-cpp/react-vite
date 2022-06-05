@@ -1,15 +1,8 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {},
-    fontFamily: {
-      sans: ['Poppins', ...defaultTheme.fontFamily.sans],
-      serif: ['IBM Plex Serif', ...defaultTheme.fontFamily.serif],
-      mono: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
-    },
     container: {
       center: true,
       padding: {
@@ -22,4 +15,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}

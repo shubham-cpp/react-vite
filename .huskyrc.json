@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "pnpm run format:fix && pnpm run lint:fix",
+    "pre-push": "pnpm run test"
+  }
+}

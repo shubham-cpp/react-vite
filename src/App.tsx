@@ -1,9 +1,9 @@
-const App = function () {
+function App() {
   return (
-    <div>
-      <h1 className="text-4xl text-center underline text-pink-700">Hello from react</h1>
+    <div className="App">
+      <h1 className="text-center text-6xl text-orange-200">hello world</h1>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
